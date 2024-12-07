@@ -1,0 +1,47 @@
+.header {
+  align-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.header .h1 {
+  margin-bottom: 0px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 50px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.btnn {
+  width: 140px;
+  height: 40px;
+  border-radius: 15px;
+  /* border-style: none; */
+  background-color: green;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.btnno {
+  width: 140px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  /* Membuat tombol dapat bergerak menggunakan left dan top */
+  left: 0px; /* Posisi default */
+  top: 0px;
+}
