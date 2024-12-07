@@ -1,58 +1,57 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Buat body setinggi viewport */
-  background-color: #f9f9f9;
-  box-sizing: border-box;
-}
-
 .header {
+  align-content: center;
   text-align: center;
+  padding-top: 100px;
 }
 
-.header img {
-  max-width: 100%;
-  height: auto;
-}
-
-.header h1 {
-  margin-bottom: 20px;
-  font-size: 1.5rem;
+.header .h1 {
+  margin-bottom: 0px;
 }
 
 .btn {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+  margin-top: 100px;
+  gap: 50px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
-.btnn,
+.btnn {
+  width: 140px;
+  height: 40px;
+  border-radius: 15px;
+  /* border-style: none; */
+  background-color: green;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
 .btnno {
-  width: 100px;
+  width: 140px;
   height: 40px;
   border-radius: 15px;
   background-color: green;
   color: white;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 40px; /* Vertikal tengah */
   border: none;
   cursor: pointer;
-}
-
-.btnno {
   position: absolute;
+  /* Membuat tombol dapat bergerak menggunakan left dan top */
+  left: 0px; /* Posisi default */
+  top: 0px;
 }
-
 /* Media Query untuk Layar Lebar Kecil */
 @media (max-width: 768px) {
-  .header h1 {
-    font-size: 1.2rem;
+  .btnn,
+  .btnno {
+    width: 80px; /* Ukuran lebih kecil */
+    height: 35px;
+    font-size: 0.85rem;
   }
 }
 

@@ -13,8 +13,8 @@ btnyes.addEventListener("click", () => {
 
 btnno.addEventListener("click", () => {
   const btnnorect = btnno.getBoundingClientRect();
-  const maxX = window.innerWidth - btnnorect.width - 20;
-  const maxY = window.innerHeight - btnnorect.height - 20;
+  const maxX = window.innerWidth - btnnorect.width;
+  const maxY = window.innerHeight - btnnorect.height;
 
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
